@@ -10,5 +10,8 @@ export const router = createBrowserRouter([
     {
         path: "movie/:id",
         element: <MovieDetails />
+    },
+    {
+        basename: "/mobdev3-lab10-sergeev"
     }
 ])
